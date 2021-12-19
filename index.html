@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zing mp3</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      sizes="16x16"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROtV-u3oVCfaE8ajIIqQTLX4ZRAJyEwXoRU6tHIcAEsm2uvPZjL7yvQL7vx_bdw5lKMVk&usqp=CAU"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <div class="content">
+        <div class="content-brand">
+          <img
+            src="https://zmp3-static.zadn.vn/skins/zmp3-v6.1/images/backgrounds/logo-dark.svg
+              "
+            alt=""
+            class="content-brand-logo"
+          />
+        </div>
+        <div class="content-menu">
+          <ul class="content-menu-list">
+            <li class="content-menu-list-info active">
+              <i class="fas fa-music icon-list"></i>
+              Cá nhân
+            </li>
+            <li class="content-menu-list-info">
+              <i class="fas fa-compact-disc icon-list"></i>
+              Khám phá
+            </li>
+            <li class="content-menu-list-info">
+              <i class="fas fa-chart-line icon-list"></i>
+              #zingchart
+            </li>
+            <li class="content-menu-list-info">
+              <i class="fas fa-podcast icon-list"></i>
+              Radio
+            </li>
+            <li class="content-menu-list-info">
+              <i class="far fa-save icon-list"></i>
+              Theo dõi
+            </li>
+          </ul>
+          <div class="content-margin">
+            <ul class="content-menu-list2">
+              <li class="content-menu-list-music">
+                <i class="fas fa-headphones icon-list"></i>
+                Nhạc mới
+              </li>
+              <li class="content-menu-list-music">
+                <i class="fas fa-atom icon-list"></i>
+                Thể loại
+              </li>
+              <li class="content-menu-list-music">
+                <i class="far fa-star icon-list"></i>
+                Top 100
+              </li>
+              <li class="content-menu-list-music">
+                <i class="far fa-file-audio icon-list"></i>
+                Mv
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header">
+        <div class="header-icon">
+          <i class="fas fa-arrow-left header-icon-list"></i>
+          <i class="fas fa-arrow-right header-icon-list"></i>
+        </div>
+        <div class="header-search">
+          <i class="fas fa-search icon-search"></i>
+          <input
+            type="text"
+            class="header-search-input"
+            placeholder="Nhập tên bài hát , nghệ sĩ hoặc Mv..."
+          />
+        </div>
+        <div class="header-icon-item">
+          <div class="header-icon-item-list">
+            <i class="fab fa-themeisle header-icon-style"></i>
+          </div>
+          <div class="header-icon-item-list">
+            <i class="fas fa-upload header-icon-style"></i>
+          </div>
+          <div class="header-icon-item-list">
+            <i class="fas fa-cog header-icon-style"></i>
+          </div>
+          <div class="header-icon-item-list2">
+            <img
+              class="header-icon-item-img"
+              src="./assets/img/196988276_539728870357557_2007625468591410730_n.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="play-music">
+        <!-- CD -->
+        <div class="music-info">
+          <div class="cd">
+            <div class="cd-thumb"style="background-image : url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtxag7qArlBfAsENabcAqyLSztOLNTkCRqHw&usqp=CAU)" >
+            </div>
+            <div class="music-info-header">
+              <h4 class="music-info-h4">Thay lòng</h4>
+              <span class="music-info-span">DIMZ , TVk ,NH4T</span>
+  
+            </div>
+          </div>
+          <div class="music-icon">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+          <div class="control">
+            <div class="control-item">
+              <div class="btn btn-random">
+                <i class="fas fa-random"></i>
+              </div>
+              <div class="btn btn-prev">
+
+                <i class="fas fa-step-backward"></i>
+              </div>
+               <div class="btn btn-toggle-play">
+
+                <i class="far fa-play-circle icon-play"></i>
+                 <i class="fas fa-pause-circle icon-pause"></i>
+               </div>
+               <div class="btn btn-next">
+
+                 <i class="fas fa-step-forward"></i>
+               </div>
+               <div class="btn btn-repeat">
+                 <i class="fas fa-redo"></i>
+               </div>
+            </div>
+            <input  id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+            <audio id="audio" src=""></audio>
+          </div>
+          
+
+
+        </div>
+      </div>
+      <div class="main">
+        <div class="main-list">
+          <div class="main-list-item"></div>
+          <!-- giao diện 1-->
+          <div class="tab-pane">
+            <img class="capnhat" src="./assets/img/Baiviet_dang_cap_nhat.jpg" alt="" srcset="">
+          </div>
+          <!-- giao diện 2-->
+          <div class="tab-pane active">
+            <div class="main-list-item1">
+              <div class="main-list-item1-container">
+                <div class="main-list-margin">
+                  <ul class="main-list-img">
+                    <img
+                      class="img-main"
+                      src="	https://photo-zmp3.zadn.vn/banner/c/6/5/6/c656543f29977c178cd2c2c5e6c03d31.jpg"
+                      alt=""
+                    />
+                  </ul>
+                  <ul class="main-list-img">
+                    <img
+                      class="img-main"
+                      src="https://photo-zmp3.zadn.vn/banner/2/f/a/d/2fadd4d0db18368509ecf4d77b919b50.jpg"
+                      alt=""
+                    />
+                  </ul>
+                  <ul class="main-list-img">
+                    <img
+                      class="img-main"
+                      src="	https://photo-zmp3.zadn.vn/banner/9/7/2/b/972b91ab63aaf76275c73174281d7dc0.jpg"
+                      alt=""
+                    />
+                  </ul>
+                </div>
+              </div>
+              <div class="main-list-item1-text">
+                <h2 class="main-list-item1-h2">Lựa Chọn Hôm nay</h2>
+              </div>
+              <div class="main-list-item1-chosse">
+                <ul class="main-list-item1-list">
+                  <img
+                    class="main-list-item1-img"
+                    src="	https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/1/d/a/3/1da39b8da2ee557d986d4fb78a1cc410.jpg"
+                    alt=""
+                  />
+                  <h2 class="main-list-item1-img-h2">Acousic V-Pop</h2>
+                  <p class="main-list-item1-img-text">
+                    Rót mật vào tay cùng những thanh âm Acousic nhẹ nhàng
+                  </p>
+                </ul>
+                <ul class="main-list-item1-list">
+                  <img
+                    class="main-list-item1-img"
+                    src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/1/f/c/6/1fc60053adeae51c077502d969686a90.jpg"
+                    alt=""
+                  />
+                  <h2 class="main-list-item1-img-h2">K-Pop Debut Song</h2>
+                  <p class="main-list-item1-img-text">
+                    Tạo ấn tượng ngay từ ca khúc mở đầu
+                  </p>
+                </ul>
+                <ul class="main-list-item1-list">
+                  <img
+                    class="main-list-item1-img"
+                    src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/0/f/6/0/0f60af04482cb3dfd68fa956a4ac501c.jpg"
+                    alt=""
+                  />
+                  <h2 class="main-list-item1-img-h2">Thanh Âm Indie Buồn</h2>
+                  <p class="main-list-item1-img-text">
+                    Thả một chút buồn vào những thanh âm Indie buồn
+                  </p>
+                </ul>
+                <ul class="main-list-item1-list">
+                  <img
+                    class="main-list-item1-img"
+                    src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/2/a/1/4/2a14b143df0f35ec0c46bb852eca1264.jpg"
+                    alt=""
+                  />
+                  <h2 class="main-list-item1-img-h2">Are & Be</h2>
+                  <p class="main-list-item1-img-text">
+                    Update ngay những bản R&B mới nhất khiến bạn tan chảy
+                  </p>
+                </ul>
+                <ul class="main-list-item1-list">
+                  <img
+                    class="main-list-item1-img"
+                    src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/3/4/a/3/34a3050bd4a8b7b8e94ba6578c291cb0.jpg"
+                    alt=""
+                  />
+                  <h2 class="main-list-item1-img-h2">EDM Now</h2>
+                  <p class="main-list-item1-img-text">
+                    EDM Âu Mỹ mới ra lò, 1 click là lên luôn
+                  </p>
+                </ul>
+              </div>
+              <div class="main-list-item1-text">
+                <h2 class="main-list-item1-h2">XONE's CORNER</h2>
+              </div>
+              <div class="main-list-item1-chosse">
+                <ul class="main-list-item1-list">
+                  <img
+                    class="main-list-item1-img"
+                    src="	https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/f/1/7/c/f17c9d1037b5b170ce1c9630554a667b.jpg"
+                    alt=""
+                  />
+                  <h2 class="main-list-item1-img-h2">
+                    Camila Cabello's Flavour
+                  </h2>
+                  <p class="main-list-item1-img-text">
+                    Album thứ hai, Romance, đạt top 3 trên BXH Billboard 200
+                  </p>
+                </ul>
+                <ul class="main-list-item1-list">
+                  <img
+                    class="main-list-item1-img"
+                    src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/b/6/9/9/b6992f9d2eaa732f887173e660ba8621.jpg"
+                    alt=""
+                  />
+                  <h2 class="main-list-item1-img-h2">Daily XONE's Picks</h2>
+                  <p class="main-list-item1-img-text">
+                    F5 là có nhạc tuyển chọn mỗi ngày
+                  </p>
+                </ul>
+                <ul class="main-list-item1-list">
+                  <img
+                    class="main-list-item1-img"
+                    src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/2/0/d/0/20d039c9a902ffc4b9ff4c81dd53aedb.jpg"
+                    alt=""
+                  />
+                  <h2 class="main-list-item1-img-h2">Throwback Pop</h2>
+                  <p class="main-list-item1-img-text">
+                    Những bản nhạc pop nghe đã thấy quen
+                  </p>
+                </ul>
+                <ul class="main-list-item1-list">
+                  <img
+                    class="main-list-item1-img"
+                    src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/2/3/3/8/2338db3c85ee3cb9a19d9b0a162e1c52.jpg"
+                    alt=""
+                  />
+                  <h2 class="main-list-item1-img-h2">Indie Hits</h2>
+                  <p class="main-list-item1-img-text">
+                    Hoàng tử Indie và những bài hát hot nhất châu Á
+                  </p>
+                </ul>
+                <ul class="main-list-item1-list">
+                  <img
+                    class="main-list-item1-img"
+                    src="https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/6/6/4/b/664b0911e3bd53d60151b1430a72faaa.jpg"
+                    alt=""
+                  />
+                  <h2 class="main-list-item1-img-h2">Asia Tune</h2>
+                  <p class="main-list-item1-img-text">
+                    Bài hát tuyển chọn cho người chơi hệ châu Á
+                  </p>
+                </ul>
+              </div>
+              <div class="main-list-item1-text">
+                <h2 class="main-list-item1-h2">Gần đây</h2>
+              </div>
+              <div class="main-list-item1-chosse">
+                <ul class="main-list-item1-list">
+                  <img
+                    class="main-list-item1-img"
+                    src="	https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/e/d/2/5/ed251cf560be4747e7737b535c357f07.jpg"
+                    alt=""
+                  />
+                  <h2 class="main-list-item1-img-h2">#zingchart</h2>
+                  <p class="main-list-item1-img-text"></p>
+                </ul>
+                <ul class="main-list-item1-list"></ul>
+                <ul class="main-list-item1-list"></ul>
+                <ul class="main-list-item1-list"></ul>
+                <ul class="main-list-item1-list"></ul>
+              </div>
+            </div>
+          </div>
+          <!-- giao diện 3-->
+          <div class="tab-pane">
+            <div class="main-list-item2">
+              <div class="main-margin"></div>
+              <!-- playlist -->
+              <div class="playlist-album"></div>
+
+              <div class="playlist-span">
+                <span class="playlist-bxh-cart-album-span">Xem Top 100</span>
+              </div>
+              <div class="album-list">
+                <div class="album-margin"></div>
+                <div class="album-list-span">
+                  <div>Bảng xếp hạng tuần</div>
+                </div>
+                <!-- album list bxh-->
+                <div class="album-list-bxh">
+                  <!-- bảng xếp hạng thứ 1-->
+                  <div class="album-list-bxh-item">
+                    <div class="album-list-bxh-h2">
+                      <h2 class="album-list-made">Việt Nam</h2>
+                      <i class="fas fa-play-circle album-list-icon"></i>
+                    </div>
+                  </div>
+                  <!-- bảng xếp hạng thứ 2-->
+                  <div class="album-list-bxh-item">
+                    <div class="album-list-bxh-h2">
+                      <h2 class="album-list-made">US-UK</h2>
+                      <i class="fas fa-play-circle album-list-icon"></i>
+                    </div>
+                  </div>
+                  <!-- bảng xếp hạng thứ 3-->
+                  <div class="album-list-bxh-item">
+                    <div class="album-list-bxh-h2">
+                      <h2 class="album-list-made">K-POP</h2>
+                      <i class="fas fa-play-circle album-list-icon"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- giao diện 4-->
+          <div class="tab-pane">
+            <img class="capnhat" src="./assets/img/Baiviet_dang_cap_nhat.jpg" alt="" srcset="">
+          </div>
+          <!-- giao diện 5-->
+          <div class="tab-pane">
+            <img class="capnhat" src="./assets/img/Baiviet_dang_cap_nhat.jpg" alt="" srcset="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

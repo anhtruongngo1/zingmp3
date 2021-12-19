@@ -1,0 +1,120 @@
+#include <iostream>
+#include <math.h>
+#define N NULL
+using namespace std;
+struct Tree {
+    int info;
+    Tree *left, *right;
+};
+Tree* tao(char x, Tree* l, Tree* r)
+{
+    Tree* p = new Tree;
+    p->info = x;
+    p->left = l;
+    p->right = r;
+    return p;
+}
+void taoCay(Tree*& T)
+{
+    Tree *z, *p, *s, *q, *r;
+    z = tao(6, tao(8, N, N), N);
+    p = tao(11, N, z);
+    s = tao(10, p, tao(20, N, N));
+    q = tao(17, tao(30, N, N), N);
+    r = tao(13, tao(21, N, N), q);
+    T = tao(15, s, r);
+}
+void F(Tree* t)
+{
+    if (t != N) {
+        cout << t->info << " ";
+        F(t->left);
+        F(t->right);
+    }
+}
+void F2(Tree* t)
+{
+    if (t != N) {
+        F2(t->left);
+        cout << t->info << " ";
+        F2(t->right);
+    }
+}
+void F3(Tree* t)
+{
+    if (t != N) {
+        F3(t->left);
+        F3(t->right);
+        cout << t->info << " ";
+    }
+}
+void F4(Tree* t)
+{
+    if (t != N) {
+        cout << t->info << " ";
+        F4(t->right);
+        F4(t->left);
+    }
+}
+void F5(Tree* t)
+{
+    if (t != N) {
+        F5(t->right);
+        cout << t->info << " ";
+        F5(t->left);
+    }
+}
+void F6(Tree* t)
+{
+    if (t != N) {
+        F6(t->right);
+        F6(t->left);
+        cout << t->info << " ";
+    }
+}
+int s = 0;
+int F7(Tree* t)
+{
+    if (t != NULL) {
+        if (t->left == NULL && t->right == NULL)
+            s = s + t->info;
+        F7(t->left);
+        F7(t->right);
+    }
+    return s;
+}
+int KiemTraNT(int n){
+    if(n<2) return 0;
+    for(int i=2; i<=sqrt(n); i++){
+        if(n%i==0) return 0;
+    }
+    return 1;
+}
+void F8(Tree *t){
+    if(t!=NULL){
+        if(KiemTraNT(t->info))
+            cout<<t->info<<" ";
+            F8(t->left);
+            F8(t->right);
+    }
+}
+main()
+{
+    Tree* root;
+    int n;
+    taoCay(root);
+    cout << "Node Left Right: ";
+    F(root);
+    cout << "\nLeft Node Right: ";
+    F2(root);
+    cout << "\nLeft Right Node: ";
+    F3(root);
+    cout << "\nNode Right Left: ";
+    F4(root);
+    cout << "\nRight Node Left: ";
+    F5(root);
+    cout << "\nRight Left Node: ";
+    F6(root);
+    cout << "\nTong  node  = " << F7(root);
+    cout<<"\nCac so NT: ";F8(root);
+}
