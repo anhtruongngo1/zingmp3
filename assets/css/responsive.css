@@ -1,0 +1,195 @@
+@media(max-width: 739px){
+    .header-icon{
+        display: none;
+    }
+    .header-icon-item{
+        display : none;
+    }
+    .header-search{
+        width: 200px;
+        margin-left: 59px;
+    }
+    .header-search-input {
+        width : 130px;
+    }
+    .content{
+        z-index: 99;
+    }
+    .content-brand-logo {
+        width: 90px;
+        height: 50px;
+        background-color: #170f23;
+        color: #fff;
+        margin-left: 1px;
+        margin-top: 0px;
+    }
+    .content-menu-list-info {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content-menu-list-info i{
+        display: block;
+        text-align: center ;
+    }
+
+    .content-menu-list-music span,
+    .content-menu-list-info span{
+        display : none ;
+    }
+    .content-menu-list-music {
+        text-align: center;
+        margin: 0;
+    }
+    .main{
+        width: 100vw;
+        overflow: hidden;
+    }
+    .main-list-item2{
+        width: 100vw;
+        margin:0 ;
+    }
+    .main-margin {
+        height: 10px;
+    }
+    .playlist{
+        overflow : hidden;
+        height: 55px;
+    }
+    .playlist-bxh{
+        margin-left: 49px;
+    }
+    .playlist-bxh-cart {
+        padding: 0;
+    }
+    .playlist-bxh-top {
+        width: 25px;
+        margin-left: 10px;
+        font-size: 29px
+    }
+    .playlist-bxh i{
+        display: none;
+    }
+    .thumb {
+        width: 200px;
+        margin-left: 5px;
+    }
+    .playlist-bxh-cart{
+        margin-left:4px;
+    }
+    .playlist-bxh-cart-song {
+        font-size: 13px;
+        line-height: 1;
+    }
+    .playlist-bxh-cart-album{
+        display:none ;
+    }
+    .playlist-bxh-cart-album-inf{
+        margin-top: 17px;
+    }
+    .cd {
+        margin-left: 6px;
+    }
+    .music-icon {
+        display:none ;
+    }
+    .control{
+        margin: 0;
+    }
+    .control-item{
+        width : 1px;
+        margin-left: 70px;
+    }
+    .btn {
+        color: #666;
+        padding: 8px;
+        font-size: 23px;
+    }
+    .progress{
+        position: absolute;
+        left: 0;
+        -webkit-appearance: auto;
+    }
+    .album-list {
+        width: 100vw;
+        height: auto;
+        background-color: #241837;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+    }
+    .album-list-span{
+        display: block;
+    width: auto;
+    height: 49px;
+    font-size: 27px;
+    }
+    .album-list-bxh{
+        flex-direction: column;
+    }
+    .album-list-bxh-item{
+        margin-top: 12px;
+    }
+    .album-list-bxh-h2{
+        width:auto;
+    }
+    /* giao dien 2*/
+    .main-list-item1-container{
+        height:auto ;
+    }
+    .main-list-margin{
+        flex-direction: column;
+    }
+    .img-main{
+        height: 186px;
+        width: 100%;
+    }
+    .main-list-img {
+        width: 260px;
+        height: 195px;
+        margin-top: 10px;
+        
+    }
+    
+.main-list-item1-chosse {
+    width: max-width;
+    height: 1429px;
+    display: flex;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    flex-direction: column;
+}
+.main-list-item1-list{
+    width:245px;
+}
+.main-list-item1-img {
+    width: 230px;
+}
+}
+/* tablet va mobile */
+@media(max-width : 1023px) and ( min-width : 740px){
+    .main-list-item2{
+        overflow:hidden;
+        margin-left: 25vw;
+    }
+    .content {
+        width: 25vw;
+        z-index: 99;
+    }
+    .playlist-bxh{
+        margin-left : 0px;
+    }
+    .header-icon-item {
+        display: none
+    }
+    .album-list{
+        display: hidden ;
+    }
+    .main-list-item1 {
+        width: 85vw;
+        margin-left: 25vw;
+    }
+    .main-list-margin{
+        overflow: hidden;
+    }
+}

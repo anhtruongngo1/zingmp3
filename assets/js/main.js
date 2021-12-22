@@ -315,6 +315,7 @@ const app = {
         {
           behavior: 'smooth' ,
           block:'center',
+          inline: 'nearest',
         }
       )
      })

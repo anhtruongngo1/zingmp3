@@ -108,7 +108,7 @@ ul {
 }
 /* header */
 .header {
-  width: 1293px;
+  width: 85%;
   height: 50px;
   background-color: rgb(23, 15, 35);
   margin-left: 15%;
@@ -199,7 +199,6 @@ ul {
 .main-list {
   display: block;
   width: 100%;
-  height: 1500px;
 }
 .main-list-item {
   width: max-width;
@@ -208,7 +207,6 @@ ul {
 /* giao diện 1 */
 .main-list-item1 {
   width: 1293px;
-  height: 1500px;
   background-color: var(--primary-color);
   margin-left: 15%;
 }
@@ -231,6 +229,7 @@ ul {
   height: 209px;
   width: 100%;
   border-radius: 15px;
+  object-fit: cover;
 }
 .img-main:hover{
   -webkit-transform: scale(1.1); transform: scale(1.1); 
@@ -288,7 +287,7 @@ ul {
   width: max-width;
 }
 .main-list-item2 {
-  width: 100%;
+  width: 85%;
   height: 1500px;
   background-color: var(--primary-color);
   margin-left: 15%;
@@ -447,7 +446,7 @@ ul {
   background-color: #120C1C;
   align-items: flex-end;
   position : fixed;
-  z-index: 1;
+  z-index: 99;
   bottom : 0 ;
   display: none;
 }
